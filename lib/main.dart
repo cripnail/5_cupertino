@@ -48,7 +48,7 @@ class _MyHomePageState extends State<MyHomePage> {
         items: _nav.map((item) {
           return BottomNavigationBarItem(
             // ignore: deprecated_member_use
-            title: Text(item.title),
+            label: item.title,
             icon: Icon(item.icon),
           );
         }).toList(),
